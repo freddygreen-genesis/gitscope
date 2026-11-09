@@ -1,6 +1,6 @@
 // GitScope service worker: caches the app shell so it opens instantly and offline.
 // GitHub API requests are never cached.
-const CACHE = 'gitscope-v1';
+const CACHE = 'gitscope-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon.svg'];
 
 self.addEventListener('install', e => {
